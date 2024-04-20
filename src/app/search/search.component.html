@@ -1,0 +1,9 @@
+<div class="input-group mt-3" >
+    <label for="search">Search:</label>
+    <input type="text"
+    class="form-control"
+    [(ngModel)]="searchWord"
+    (input)="onSearch()"
+    name="search" style="resize: horizontal; width: 580px;">
+
+</div>

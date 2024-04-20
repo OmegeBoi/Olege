@@ -1,0 +1,31 @@
+section{
+    overflow-y: scroll;
+}
+.sec-1{
+    margin-top: 50px;
+}
+.sec-2{
+    margin-top: 25px;
+}
+.sec-prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 960px;
+    margin: auto;
+    gap: 34px;
+}
+
+app-product{
+    display: grid;
+    border: rgb(101, 101, 101) solid 3px;
+    border-radius: 15px;
+    gap: 12px;
+}
+
+
+
+@media (max-width=1680px){
+    .sec-prod{
+        background-color: brown;
+    }
+}

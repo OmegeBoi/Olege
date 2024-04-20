@@ -1,0 +1,9 @@
+
+
+<img src="{{food.imgSrc}}" alt="" class = 'card-img'>
+<h1 class="card-name">{{food.name}}</h1>
+<p class="card-desc">{{food.description}}</p>
+<div>
+    <p class="card-price">$ {{food.price}}</p>
+    <button class="box" [routerLink]="['/card', food.id]">Shop Now</button>
+</div>

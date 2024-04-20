@@ -1,6 +1,8 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
-
-bootstrapApplication(AppComponent, appConfig)
+import { provideRouter } from '@angular/router';
+import routerConfig from "./app/app.routes";
+import { provideIonicAngular } from '@ionic/angular/standalone'
+bootstrapApplication(AppComponent,{providers:[provideRouter(routerConfig), provideIonicAngular({})]})
   .catch((err) => console.error(err));
+

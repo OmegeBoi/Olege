@@ -1,0 +1,60 @@
+.container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.right img{
+    height: 560px;
+    width: 780px;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 43px;
+}
+.priceandshit{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 54px;
+}
+p{
+    font-size: 32px;
+    max-width: 520px;
+}
+.btns{
+    display: flex;
+    gap: 42px;
+}
+.btn-1{
+    background-color: rgb(228, 92, 42);
+    border-radius: 12px;
+    height: 75px;
+    width: 200px;
+    transition: 0.2s;
+    border:2px solid   rgb(124, 75, 55); 
+}
+.btn-1:hover{
+    background-color:  rgb(124, 75, 55);
+    color: white;
+}
+.btn-2{
+    background-color: rgb(228, 92, 42);
+    border-radius: 12px;
+    height: 75px;
+    width: 200px;
+    transition: 0.2s;
+    border:2px solid  rgb(124, 75, 55);;
+}
+.btn-2:hover{
+    background-color: rgb(124, 75, 55);
+    color: white;
+}

@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1650px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 52px;
+}
+.logo:hover {
+    font-size: 53px;
+    font-weight: bold;
+    cursor: pointer;
+    color: yellow;
+    transition: 0.3s;
+}
+.cart{
+    height: 30px;
+    width: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+    
+
+.lageba{
+    display: flex;
+    align-items: center;
+}
+.color{
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 26px;
+}
+.nav .color:hover{
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    color: yellow;
+    transition: 0.3s;
+}
+.button{
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    padding: 13px 18px;
+    transition: all 0.4s;
+    cursor: pointer;
+   }
+   
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+   
+.button span:after{
+    content: 'In';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+   
+.button:hover span{
+    padding-right: 25px;
+}
+   
+.button:hover span:after{
+    opacity: 4;
+    right: 0;
+   }
+
+.button1{
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 14px 56px -11px #1875FF;
+    padding: 13px 18px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+   
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+   
+.button1 span:after {
+    content: 'In';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+   
+.button1:hover span {
+    padding-right: 24px;
+}
+   
+.button1:hover span:after {
+    opacity: 4;
+    right: 0;
+}

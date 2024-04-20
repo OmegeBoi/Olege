@@ -1,0 +1,28 @@
+.section {
+    background-image: url("https://www.shutterstock.com/image-photo/wood-table-on-blur-cafe-600nw-2292000223.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 723px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+h1{
+    color: rgb(131, 45, 45);
+
+}
+p{
+    color: rgb(131, 45, 45);
+    max-width: 725px;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width=1680px){
+    .section{
+        height: 497px;
+    }
+}

@@ -1,0 +1,10 @@
+.form-control{
+    width: 580px;
+}
+label{
+    font-size: 26px;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
